@@ -15,24 +15,40 @@ body {
   justify-content: center;
 }
 
+.header {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px 16px;
 }
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: lightgray;
   width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
+  margin-right: 16px;
+}
+
+.text {
+  margin: 8px 0;
 }
 
 .close-button {
